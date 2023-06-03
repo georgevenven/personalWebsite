@@ -1,0 +1,9 @@
+{% extends "base.njk" %}
+{% block body %}
+    {{page_title}}
+    {{author}}
+    {{draft_status}}
+    {{category}}
+    </hr>
+    {{content | safe}}
+{% endblock %}
